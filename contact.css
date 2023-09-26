@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #d0e7d2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /* flex container */
+  background-color: #618264;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.nav-left {
+  /* flex item */
+  flex: 50%; /* mengatur lebarnya */
+  /* background-color: red; */
+}
+
+.nav-right {
+  /* flex item */
+  flex: 50%;
+  text-align: end;
+  margin-right: 25px;
+  /* background-color: blue; */
+}
+
+.nav-right a {
+  background-color: #79ac78;
+  padding: 8px 25px;
+  color: white;
+  border-radius: 5px;
+}
+
+form {
+  width: 350px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+form div {
+  margin-top: 15px;
+}
+
+label {
+  color: #618264;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  background-color: #618264;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  resize: none;
+}
+
+button {
+  background-color: #618264;
+  color: white;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+button:hover {
+  background-color: #e95d05e3;
+}
